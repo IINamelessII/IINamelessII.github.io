@@ -57,7 +57,11 @@ body {
     display: -webkit-inline-box;
 }
 
-a:visited {
+.top-bar a {
+    color: #fff;
+}
+
+.footer a {
     color: #fff;
 }
 
