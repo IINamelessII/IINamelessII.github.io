@@ -27,11 +27,11 @@ body {
 .logo {
     margin-left: 10%;
     font-size: 4rem;
-    word-break: normal;
+    /* word-break: normal;
     word-wrap: normal;
-    overflow-wrap: normal;
+    overflow-wrap: normal; */
     float: left;
-    font-family: MyLogoFont, 'MyLogoFont', "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    font-family: "MyLogoFont", "Roboto", "Corbel", "Avenir", "Lucida Grande", "Lucida Sans", sans-serif;
 }
 
 .top-bar .desc {
@@ -84,7 +84,7 @@ body {
     margin-left: 10%;
 }
 
-.footer .container {
+.f-container {
     color: #fff;
     width: 100%;
     font-weight: bold;
@@ -94,6 +94,27 @@ body {
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: flex-start;
     align-items: center;
+}
+
+.main {
+    color: #0C3C26;
+}
+
+.container {
+    width: 100%;
+    border-bottom: #0C3C26 1px solid;
+    border-width: 
+}
+
+.review {
+    font-size: 3.6rem;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    word-break: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    margin: 30px 20%;
 }
 
 a {
