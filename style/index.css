@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+body::selection{
+    background: #C9F0DD;
+}
+
 .top-bar {
     background-color: #0C4B33;
     color: #fff;
@@ -149,10 +153,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.text::selection{
-    background: #C9F0DD;
-}
-
 .main ul{
     list-style: none;
     font-family: 'Roboto', 'Lato', 'Archivo', 'Exo 2', 'Ubuntu',  sans-serif;
@@ -161,6 +161,23 @@ body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool {
+    width: 300px;
+    height: 75px;
+    border: 1px solid #0C3C26;;
+    margin: 3px;
+}
+
+.tool a img {
+    width: 300px;
+    height: 75px;
 }
 
 a {
