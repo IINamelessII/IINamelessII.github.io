@@ -100,10 +100,19 @@ body {
     color: #0C3C26;
 }
 
+.supcontainer{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 4.16667%;
+}
+
 .container {
     width: 100%;
     border-bottom: #0C3C26 1px solid;
-    border-width: 
+}
+
+.container:last-of-type {
+    border: none;
 }
 
 .review {
@@ -114,7 +123,44 @@ body {
     word-break: normal;
     word-wrap: normal;
     overflow-wrap: normal;
-    margin: 30px 20%;
+    padding: 30px 20%;
+    border-bottom: 1px solid #CFE3DC;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em auto .5em;
+    color: #0C3C26;
+}
+
+.title {
+    letter-spacing: -1px;
+    line-height: 1.1;
+    font-size: 3.2rem;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    font-weight: 400;
+}
+
+.text{
+    font-family: 'Roboto', 'Lato', 'Archivo', 'Exo 2', 'Ubuntu',  sans-serif;
+    font-size: 1.8rem;
+    color: #0C3C26;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.text::selection{
+    background: #C9F0DD;
+}
+
+.main ul{
+    list-style: none;
+    font-family: 'Roboto', 'Lato', 'Archivo', 'Exo 2', 'Ubuntu',  sans-serif;
+    font-size: 1.8rem;
+    color: #0C3C26;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
