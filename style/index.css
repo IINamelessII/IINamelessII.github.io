@@ -170,14 +170,14 @@ body::selection{
 
 .tool {
     width: 300px;
-    height: 75px;
+    height: 100px;
     border: 1px solid #0C3C26;;
     margin: 3px;
 }
 
 .tool a img {
     width: 300px;
-    height: 75px;
+    height: 100px;
 }
 
 a {
@@ -193,3 +193,13 @@ a {
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .main {
+    padding-top: 102px;
+  }
